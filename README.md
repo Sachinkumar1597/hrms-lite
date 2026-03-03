@@ -1,6 +1,12 @@
 HRMS Lite – Employee & Attendance Management System
 -----------------------------------------------------
 
+Live Application
+-------------------------
+
+Frontend: https://hrms-lite-rho-seven.vercel.app/  
+Backend API: https://hrms-lite-09me.onrender.com
+
 Project Overview
 
 HRMS Lite is a lightweight Human Resource Management System built as part of a full-stack coding assignment.
