@@ -6,9 +6,11 @@ from app.attendance.routes import router as attendance_router
 
 app = FastAPI(title="HRMS Lite API")
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],
+#   allow_origins=["http://localhost:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
