@@ -32,6 +32,7 @@ async def list_employees():
         employees.append(employee_helper(emp))
     return employees
 
+
 @router.delete("/{employee_id}")
 async def remove_employee(employee_id: str):
     result = await delete_employee(employee_id)
